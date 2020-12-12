@@ -72,6 +72,5 @@ public class ExpenseManagerTest {
         Assert.assertEquals(280,expenseManager.balanceSheet.get("testUser1").get("testUser3"),0.0);
         Assert.assertEquals(400,expenseManager.balanceSheet.get("testUser2").get("testUser1"),0.0);
         Assert.assertEquals(880,expenseManager.balanceSheet.get("testUser3").get("testUser2"),0.0);
-        expenseManager.showBalances();
     }
 }
